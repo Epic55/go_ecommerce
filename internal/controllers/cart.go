@@ -20,6 +20,7 @@ type Application struct {
 	userCollection *mongo.Collection
 }
 
+// CREATES AND RETURNS A NEW INSTANCE OF THE STRUCT
 func NewApplication(prodCollection, userCollection *mongo.Collection) *Application {
 	return &Application{
 		prodCollection: prodCollection,

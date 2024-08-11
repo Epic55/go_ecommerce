@@ -164,10 +164,10 @@ response:
 
 ```json
 {
-  "house_name": "white house",
-  "street_name": "white street",
-  "city_name": "washington",
-  "pin_code": "332423432"
+  "house_name": "10",
+  "street_name": "Alfarabi",
+  "city_name": "Almaty",
+  "pin_code": "1234"
 }
 ```
 
@@ -192,4 +192,5 @@ response:
   http://localhost:8000?id=xxuser_idxxx
 
 - **Instantly Buying the Products(GET REQUEST)**
+
   http://localhost:8000?userid=xxuser_idxxx&pid=xxxxproduct_idxxxx
