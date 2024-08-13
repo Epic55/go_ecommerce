@@ -2,7 +2,6 @@ package main
 
 import (
 	"log"
-	"os"
 
 	"github.com/Epic55/ecommerce/internal/controllers"
 	"github.com/Epic55/ecommerce/internal/middleware"
@@ -12,10 +11,10 @@ import (
 )
 
 func main() {
-	port := os.Getenv("PORT")
-	if port == "" {
-		port = "8000"
-	}
+	// port := os.Getenv("PORT")
+	// if port == "" {
+	// 	port = "8080"
+	// }
 	app := controllers.NewApplication(repository.ProductData(repository.Client, "Products"), repository.UserData(repository.Client, "Users"))
 
 	router := gin.New()
@@ -31,5 +30,5 @@ func main() {
 	router.GET("/deleteaddresses", controllers.DeleteAddress())
 	router.GET("/cartcheckout", app.BuyFromCart())
 	router.GET("/instantbuy", app.InstantBuy())
-	log.Fatal(router.Run("localhost:" + port))
+	log.Fatal(router.Run("localhost:8000"))
 }

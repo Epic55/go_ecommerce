@@ -152,11 +152,11 @@ response:
 
   http://localhost:8000/removeitem?id=xxxxxxx&userID=xxxxxxxxxxxx
 
-8) **Listing the item in the users cart (GET REQUEST) and total price**
+8) **Listing the item in the users cart (GET REQUEST) and total price**  CHECK
 
   http://localhost:8000/listcart?id=xxxxxxuser_idxxxxxxxxxx
 
-9) **Addding the Address (POST REQUEST)**
+9) **Addding the Address (POST REQUEST)**  CHECK
 
   http://localhost:8000/addadress?id=user_id**\*\***\***\*\***
 
@@ -189,8 +189,8 @@ response:
 
   After placing the order the items have to be deleted from cart functonality added
 
-  http://localhost:8000?id=xxuser_idxxx
+  http://localhost:8000/cartcheckout?id=xxuser_idxxx
 
 14) **Instantly Buying the Products(GET REQUEST)**
 
-  http://localhost:8000?userid=xxuser_idxxx&pid=xxxxproduct_idxxxx
+  http://localhost:8000/instantbuy?userid=xxuser_idxxx&pid=xxxxproduct_idxxxx

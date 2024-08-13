@@ -131,6 +131,7 @@ func GetItemFromCart() gin.HandlerFunc {
 			c.IndentedJSON(200, json["total"])
 			c.IndentedJSON(200, filledcart.UserCart)
 		}
+		//c.IndentedJSON(200, filledcart.UserCart)
 		ctx.Done()
 	}
 }
@@ -177,6 +178,6 @@ func (app *Application) InstantBuy() gin.HandlerFunc {
 		if err != nil {
 			c.IndentedJSON(http.StatusInternalServerError, err)
 		}
-		c.IndentedJSON(200, "Successully placed the order")
+		c.IndentedJSON(200, "Successully bought the product")
 	}
 }
