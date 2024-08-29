@@ -33,28 +33,6 @@ Response :"Successfully Signed Up!!"
   "password": "Epic55Mazur"
 }
 ```
-
-response will be like this
-
-```json
-{
-  "_id": "***********************",
-  "first_name": "Epic55",
-  "last_name": "Mazur",
-  "password": "$2a$14$UIYjkTfnFnhg4qhIfhtYnuK9qsBQifPKgu/WPZAYBaaN17j0eTQZa",
-  "email": "Epic55@gmail.com",
-  "phone": "+4534545435",
-  "token": "eyJc0Bwcm90b25vbWFpbC5jb20iLCJGaXJzdF9OYW1lIjoiam9zZXBoIiwiTGFzdF9OYW1lIjoiaGVybWlzIiwiVWlkIjoiNjE2MTRmNTM5ZjI5YmU5NDJiZDlkZjhlIiwiZXhwIjoxNjMzODUzNjUxfQ.NbcpVtPLJJqRF44OLwoanynoejsjdJb5_v2qB41SmB8",
-  "Refresh_Token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IiIsIkZpcnLCJVaWQiOiIiLCJleHAiOjE2MzQzNzIwNTF9.ocpU8-0gCJsejmCeeEiL8DXhFcZsW7Z3OCN34HgIf2c",
-  "created_at": "2022-04-09T08:14:11Z",
-  "updtaed_at": "2022-04-09T08:14:11Z",
-  "user_id": "61614f539f29be942bd9df8e",
-  "usercart": [],
-  "address": [],
-  "orders": []
-}
-```
-
 3) **Admin add Product Function (POST REQUEST)**
 
   http://localhost:8000/admin/addproduct
