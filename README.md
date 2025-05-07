@@ -1,5 +1,6 @@
 ##**Ecommerce With Golang Project By Epic55**
-**Code-Along video series on Youtube**
+
+APPLICATION USES AUTHENTICATION, SEARCH, MONGODB.
 
 ```bash
 # You can start the project with below commands
